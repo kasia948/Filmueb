@@ -1,10 +1,10 @@
 package pl.filmueb.data;
 
 public class Movie {
-     public String title;
-     public String director;
-     public String genre;
-     public int premierYear;
+    private String title;
+    private String director;
+    private String genre;
+    private int premierYear;
 
     public Movie(String director, String title, String genre, int premierYear) {
         this.director = director;
@@ -48,4 +48,6 @@ public class Movie {
         this.premierYear = premierYear;
     }
 
+    public void addMovie (Movie m){
+    }
 }

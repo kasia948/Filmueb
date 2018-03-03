@@ -1,10 +1,9 @@
 package pl.filmueb.data;
 
-
 public class Actor {
-    String name;
-    String country;
-    int yearOfBirght;
+    private String name;
+    private String country;
+    private int yearOfBirght;
 
     public Actor(String name, String country, int yearOfBirght) {
         this.name = name;

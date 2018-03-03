@@ -1,10 +1,9 @@
 package pl.filmueb.data;
 
-
 public class TVseries {
-    String title;
-    String genre;
-    int sesons;
+    private String title;
+    private String genre;
+    private int sesons;
 
     public TVseries() {
     }
